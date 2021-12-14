@@ -12,3 +12,14 @@ def miniom_game(palabra): #creo una funcion
             pass
     print("Stuart", marcador_Stuart)
     print("Kevin", marcador_Kevin)
+    
+    if marcador_Stuart > marcador_Kevin:  #utilizo condicionales para printear las posibles soluciones
+        print("Stuart", marcador_Stuart )
+    elif marcador_Kevin > marcador_Stuart:
+        print("Kevin", marcador_Kevin)
+    else:
+        print("Draw")
+        
+if __name__ == '__main__':
+       
+        
