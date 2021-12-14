@@ -8,8 +8,6 @@ def miniom_game(palabra): #creo una funcion
             marcador_Kevin += p - i
         elif palabra[i] not in vocales: #formar empezando por consonante, en este caso se sumaria 1 punto al marcador de Stuart
             marcador_Stuart += p- i  #con esto, cada punto que se cuenta, a la vez resta una posibilidad, eso lo he realizado restandole el índice
-        else:              # si no ocurre ninguno de las 2, dejo correr el bucle(seria el empate)
-            pass
     print("Stuart", marcador_Stuart)
     print("Kevin", marcador_Kevin)
     
@@ -21,5 +19,5 @@ def miniom_game(palabra): #creo una funcion
         print("Draw")
         
 if __name__ == '__main__':
-       
-        
+    comenzar = input()
+    miniom_game(comenzar)
