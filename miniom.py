@@ -12,9 +12,9 @@ def miniom_game(palabra): #creo una funcion
     print("Kevin", marcador_Kevin)
     
     if marcador_Stuart > marcador_Kevin:  #utilizo condicionales para printear las posibles soluciones
-        print("Stuart", marcador_Stuart )
+        print("Stuart ha ganado por", marcador_Stuart - marcador_Kevin, "de diferencia")
     elif marcador_Kevin > marcador_Stuart:
-        print("Kevin", marcador_Kevin)
+        print("Kevin ha ganado por", marcador_Kevin - marcador_Stuart, "de diferencia")
     else:
         print("Draw")
         
