@@ -87,7 +87,6 @@ if __name__ == '__main__':
     fptr = open('prueba', 'w')
 
     t = int(input("Introduce 6 numeros separados por un enter>>").strip())
-
     for t_itr in range(t):
         n = int(input().strip())
 
