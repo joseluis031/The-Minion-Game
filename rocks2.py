@@ -1,6 +1,7 @@
 from random import randint
 
-
+def encerrada(fila,columna):
+    
 def movimiento(fila, columna):
     if fila == 0:
         tablero[fila+1][columna] = tablero[fila][columna]
