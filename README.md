@@ -1,7 +1,7 @@
 # The-Minion-Game
 La dirección de este repositorio es la siguiente: [GitHub](https://github.com/joseluis031/The-Minion-Game.git)
 
-El código  del juego de los miniom es el siguiente:
+El código  del juego de los miniom es el siguiente (este si que lo he hecho yo entero:/, los demas no):
 ```def miniom_game(palabra): #creo una funcion
     marcador_Stuart = 0   #creo los marcadores de los 2 jugadores
     marcador_Kevin = 0
